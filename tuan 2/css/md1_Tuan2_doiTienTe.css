@@ -1,0 +1,37 @@
+#wrapper {
+    width: 500px;
+    margin: auto;
+    height: 300px;
+
+}
+#header {
+    width: 500px;
+    height: 100px;
+    text-align: center;
+
+}
+#header2 {
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+}
+#h1 {
+    float: left;
+    width: 250px;
+    height: 100px;
+
+}
+#h2 {
+    float: right;
+    width: 250px;
+    height: 100px;
+
+}
+#cuoi {
+    width: 500px;
+    height: 100px;
+    text-align: center;
+
+
+}

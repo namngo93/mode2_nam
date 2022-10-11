@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+
+</head>
+<style>
+  td {
+    text-align: center;
+  }
+
+  input {
+    width: 100%;
+  }
+</style>
+<body>
+<table border="1">
+  <tr>
+    <td colspan="4" style="text-align: left">
+      <p id="result">0</p>
+    </td>
+  </tr>
+  <tr>
+    <td><input type="button" value="(" id="(" onclick="xuLyDuLieu('(')"></td>
+    <td><input type="button" value=")" id=")" onclick="xuLyDuLieu(')')"></td>
+    <td><input type="button" value="%" id="%" onclick="xuLyDuLieu('%')"></td>
+    <td><input type="button" value="AC" id="AC" onclick="xoa()"></td>
+  </tr>
+  <tr>
+    <td><input type="button" value="7" id="7" onclick="xuLyDuLieu('7')"></td>
+    <td><input type="button" value="8" id="8" onclick="xuLyDuLieu('8')"></td>
+    <td><input type="button" value="9" id="9" onclick="xuLyDuLieu('9')"></td>
+    <td><input type="button" value="/" id="/" onclick="xuLyDuLieu('/')"></td>
+  </tr>
+  <tr>
+    <td><input type="button" value="4" id="4" onclick="xuLyDuLieu('4')"></td>
+    <td><input type="button" value="5" id="5" onclick="xuLyDuLieu('5')"></td>
+    <td><input type="button" value="6" id="6" onclick="xuLyDuLieu('6')"></td>
+    <td><input type="button" value="*" id="*" onclick="xuLyDuLieu('*')"></td>
+  </tr>
+  <tr>
+    <td><input type="button" value="1" id="1" onclick="xuLyDuLieu('1')"></td>
+    <td><input type="button" value="2" id="2" onclick="xuLyDuLieu('2')"></td>
+    <td><input type="button" value="3" id="3" onclick="xuLyDuLieu('3')"></td>
+    <td><input type="button" value="-" id="-" onclick="xuLyDuLieu('-')"></td>
+  </tr>
+  <tr>
+    <td><input type="button" value="0" id="0" onclick="xuLyDuLieu('0')"></td>
+    <td><input type="button" value="." id="." onclick="xuLyDuLieu('.')"></td>
+    <td><input type="button" value="=" id="=" onclick="xuLyKetQua()"></td>
+    <td><input type="button" value="+" id="+" onclick="xuLyDuLieu('+')"></td>
+  </tr>
+</table>
+<script src="../js/md1_tuan2_mayTinhNangCao.js"></script>
+</body>
+</html>
