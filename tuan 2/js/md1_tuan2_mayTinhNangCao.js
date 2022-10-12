@@ -2,7 +2,7 @@ let result = '';
 
 function xuLyDuLieu(input) {
     let a = document.getElementById(input).value;
-    result += a;
+    result += a; // result = result + a
     document.getElementById('result').innerHTML = result;
 }
 
