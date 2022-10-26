@@ -6,7 +6,7 @@ for (let i = 0; i < n; i++) {
     arr[i] = +prompt('Nhập các phần tử: ')
 }
 //3.In ra các phần tử của mảng
-document.write('3/ In ra các phần tử' + '<br>');
+document.write('3/ In ra các phần tử: ' + '<br>');
 for (let i = 0; i < n; i++) {
     document.write('Phần tử thứ ' + (i+1) + ' là ' + arr[i] + '<br>');
 }

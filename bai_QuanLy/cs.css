@@ -1,0 +1,85 @@
+#wrapper{
+    width: 1200px;
+    margin: auto;
+    text-decoration: none
+
+}
+#tieude{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+
+}
+#header{
+    width: 1200px;
+    height: 100px;
+    background-color: antiquewhite;
+
+}
+#Menu{
+    width: 1180px;
+    height: 30px;
+    background-color: bisque;
+    margin: 0;
+    padding: 10px;
+
+
+
+}
+#logo {
+    width: auto;
+    height: 100px;
+    float: left;
+    padding-left: 0px;
+}
+
+
+ul#Menu li a {
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+ul#Menu li{
+
+    float: left;
+}
+
+ul li{
+  list-style: none;
+}
+
+#Left{
+    width: 200px;
+    height: 1000px;
+    background-color: darkgrey;
+    float: left;
+
+}
+#Right{
+    width: 200px;
+    height: 1000px;
+    background-color: darkgrey;
+    float: right;
+
+}
+#Content{
+    width: 800px;
+    height: auto;
+    text-align: center;
+    float: left;
+}
+#Footer {
+    width: 1200px;
+    height: 60px;
+    background-color: brown;
+    clear: both;
+}
+#div1 {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    margin-left: 500px;
+}
+
+
