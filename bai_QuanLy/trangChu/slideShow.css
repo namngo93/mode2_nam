@@ -1,0 +1,51 @@
+#img{
+    width: 750px;
+    height: 500px;
+    margin-top: 20px;
+    border-radius: 30px
+
+}
+#ContentCon{
+    width: 750px;
+    height: 400px;
+    margin: auto;
+}
+#ContentCon1{
+    width: 750px;
+    height: 400px;
+    margin: auto;
+}
+#Content1{
+    width: 350px;
+    height: 400px;
+    margin: auto;
+    border: 3px solid;
+    float: left;
+    border-radius: 30px;
+}
+#Content2{
+    width: 350px;
+    height: 400px;
+    margin: auto;
+    border: 3px solid;
+    float: right;
+    border-radius: 30px;
+}
+#Content3{
+    width: 350px;
+    height: 400px;
+    margin: auto;
+    border: 3px solid;
+    float: left;
+    border-radius: 30px;
+
+}
+#Content4{
+    width: 350px;
+    height: 400px;
+    margin: auto;
+    border: 3px solid;
+    float: right;
+    border-radius: 30px;
+
+}
