@@ -92,8 +92,8 @@ function edit(i) {
     tensp[i] = nameEdit;
     yearBirth[i] = snEdit;
     gentle[i] = gtEdit;
-    gentle[i] = sopEdit;
-    gentle[i] = tgEdit;
+    number[i] = sopEdit;
+    time[i] = tgEdit;
     document.getElementById('showFormEdit').innerHTML = ``;
     vebang();
 

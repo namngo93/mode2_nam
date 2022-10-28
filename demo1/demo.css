@@ -1,0 +1,56 @@
+#tong{
+    width: 100%;
+    height: 1200px;
+
+}
+#tren{
+    width: 70%;
+    height: 200px;
+    background-color: darksalmon;
+    float: right;
+
+}
+#logo{
+
+
+}
+#tieude{
+    font-size: 70px;
+    margin-left: 400px;
+    padding-top: 10px;
+}
+
+#noidung{
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+}
+#trai{
+    width: 30%;
+    height: 1200px;
+    text-align: center;
+    float: left;
+    background-color: bisque;
+}
+
+#phai{
+    width: 70%;
+    height: 1000px;
+    text-align: center;
+    float: right;
+    background-color: darkgrey;
+}
+
+#menu{
+    padding-top: 30px;
+}
+ul#menu li a{
+    text-decoration: none;
+
+}
+ul li{
+
+    font-size: 30px;
+    list-style: none;
+    padding: 20px;
+}
